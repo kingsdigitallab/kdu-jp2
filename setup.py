@@ -19,7 +19,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='kdu-jp2',
 
-    version='1.0',
+    version='1.1',
 
     description='Batch conversion to JP2 using kdu_compress',
     long_description=long_description,
@@ -45,6 +45,7 @@ setup(
 
     keywords='jp2 conversion kdu kakadu kdu_compress batch',
 
+      scripts=['bin/imgtojp2'],
     packages=['kdu_jp2'],
 
     include_package_data=True,
