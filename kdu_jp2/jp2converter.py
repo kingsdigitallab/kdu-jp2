@@ -144,8 +144,7 @@ class JP2Converter (object):
             exe_file = os.path.join(path, program)
             if is_exe(exe_file):
                 return True
-            else:
-                return False
+        return False
 
 
 # Support pickling methods, as required by the multiprocessing
