@@ -19,10 +19,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='kdu-jp2',
 
-    version='1.1',
+    version='1.2',
 
     description='Batch conversion to JP2 using kdu_compress',
     long_description=long_description,
+    long_description_content_type='text/x-rst',
 
     url='https://github.com/kingsdigitallab/kdu-jp2',
 

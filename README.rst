@@ -1,5 +1,5 @@
 Python library for batch conversion to JP2 using kdu_compress
-==========================
+=============================================================
 
 
 Installation and Use
